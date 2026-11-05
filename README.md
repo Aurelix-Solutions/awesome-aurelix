@@ -11,6 +11,7 @@ All tools read only public pages with no login and are paid per result on Apify 
 - [Leads and local business](#leads-and-local-business)
 - [Ad research](#ad-research)
 - [Public records](#public-records)
+- [Web and AI](#web-and-ai)
 - [Marketing and SEO research](#marketing-and-seo-research)
 
 ## Jobs and hiring
@@ -34,6 +35,10 @@ All tools read only public pages with no login and are paid per result on Apify 
 ## Public records
 
 - [Canada Building Permits Scraper](https://apify.com/aurelix/canada-building-permits-scraper) - Development applications and building permits from seven Canadian cities' open data: address, ward, type, status and value. No owner names. Why this one: the only one with development applications and a ward filter, and the cheapest of the three ($3.00 vs $3.50-$5.00). Example: [canada-development-applications-example](https://github.com/Aurelix-Solutions/canada-development-applications-example).
+
+## Web and AI
+
+- [Website to Markdown Crawler](https://apify.com/aurelix/website-to-markdown) - Each page of a website as clean Markdown of its main content for AI, RAG and LLMs, with title, headings and links. Why this one: a flat $1.50 per 1,000 pages, 34% under Apify's RAG Web Browser and no compute-unit billing; failed pages free. Example: [website-to-markdown-example](https://github.com/Aurelix-Solutions/website-to-markdown-example).
 
 ## Marketing and SEO research
 
