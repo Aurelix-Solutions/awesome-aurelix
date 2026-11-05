@@ -27,6 +27,7 @@ All tools read only public pages with no login and are paid per result on Apify 
 ## Leads and local business
 
 - [Google Maps Business Scraper](https://apify.com/aurelix/google-maps-scraper) - Google Maps business listings by keyword and city: categories, address, phone, website, rating, hours and coordinates. No review text. Why this one: $1.50 per 1,000 places, less than half the leading Google Maps scrapers ($4-5), with many cities per run and an only-new-places mode. Example: [google-maps-businesses-example](https://github.com/Aurelix-Solutions/google-maps-businesses-example).
+- [Recently Funded Companies](https://apify.com/aurelix/recently-funded-companies) - US companies that just raised a private round, from official SEC Form D filings: offering size, amount sold, industry, executives and directors, plus an optional website and contacts. Why this one: funds and SPVs removed by default, a free only-new-filings mode and the company website confirmed against the filing, which the Form D alternatives compared do not offer. Example: [recently-funded-companies-example](https://github.com/Aurelix-Solutions/recently-funded-companies-example).
 
 ## Ad research
 
