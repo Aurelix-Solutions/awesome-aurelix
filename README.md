@@ -8,6 +8,7 @@ All tools read only public pages with no login and are paid per result on Apify 
 
 - [Jobs and hiring](#jobs-and-hiring)
 - [E-commerce and product research](#e-commerce-and-product-research)
+- [Leads and local business](#leads-and-local-business)
 - [Public records](#public-records)
 - [Marketing and SEO research](#marketing-and-seo-research)
 
@@ -20,6 +21,10 @@ All tools read only public pages with no login and are paid per result on Apify 
 
 - [Amazon Best Sellers Scraper](https://apify.com/aurelix/amazon-best-sellers) - Amazon Best Sellers and New Releases by category in 10 marketplaces (US, UK, DE, FR, IT, ES, CA, AU, IN, JP): rank, ASIN, price, rating and reviews, plus rank changes since your last run. Why this one: 69% under the most-used Best Sellers scraper ($1.80 vs $5.90 per 1,000), 10 marketplaces incl. amazon.ca. Example: [amazon-best-sellers-example](https://github.com/Aurelix-Solutions/amazon-best-sellers-example).
 - [AliExpress Scraper](https://apify.com/aurelix/aliexpress-product-search) - AliExpress search results for any keyword: price, original price, discount, rating, units sold and ship-from country. Why this one: cheapest of the three we compared ($1.80 vs $2.49-$9.00 per 1,000), sponsored results flagged. Example: [aliexpress-product-search-example](https://github.com/Aurelix-Solutions/aliexpress-product-search-example).
+
+## Leads and local business
+
+- [Google Maps Business Scraper](https://apify.com/aurelix/google-maps-scraper) - Google Maps business listings by keyword and city: categories, address, phone, website, rating, hours and coordinates. No review text. Why this one: $1.50 per 1,000 places, less than half the leading Google Maps scrapers ($4-5), with many cities per run and an only-new-places mode. Example: [google-maps-businesses-example](https://github.com/Aurelix-Solutions/google-maps-businesses-example).
 
 ## Public records
 
