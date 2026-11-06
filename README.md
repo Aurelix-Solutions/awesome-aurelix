@@ -50,6 +50,7 @@ All tools read only public pages with no login and are paid per result on Apify 
 ## Marketing and SEO research
 
 - [Google Trends Scraper](https://apify.com/aurelix/google-trends-scraper) - Google Trends for any number of keywords on one 0-100 scale: interest over time, interest by country, state, metro or city, and top and rising related queries. Why this one: $1.50 per 1,000 results vs $3.00 plus platform usage for Apify's own Google Trends Scraper, and it accepts Google Trends explore links. Example: [google-trends-example](https://github.com/Aurelix-Solutions/google-trends-example).
+- [Google Autocomplete Scraper](https://apify.com/aurelix/google-autocomplete-scraper) - Keyword ideas from Google Search and YouTube autocomplete: A-Z, 0-9, question and preposition modifiers for every seed, country and language, with intent tags. Why this one: $0.45 per 1,000 keywords vs $0.50-$1.00, and YouTube suggestions in the same run where the alternatives compared are Google only. Example: [keyword-expander-example](https://github.com/Aurelix-Solutions/keyword-expander-example).
 
 ## Licence
 
