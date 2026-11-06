@@ -2,6 +2,8 @@
 
 A list of the Aurelix web data tools on the Apify Store, each with a runnable example repo.
 
+Each public tool also has a page with its live price, example input and output, and FAQ on the [Aurelix tools site](https://aurelix-solutions.github.io/tools/).
+
 All tools read only public pages with no login and are paid per result on Apify (see each tool's Store page for current prices). Each entry says why it beats the leading alternatives on the Apify Store, from the comparison table on its Store page. Example repos hold MIT-licensed Python that calls the tool with `apify-client` and writes a CSV.
 
 ## Contents
