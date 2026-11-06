@@ -33,6 +33,7 @@ All tools read only public pages with no login and are paid per result on Apify 
 ## Ad research
 
 - [Facebook Ad Library Scraper](https://apify.com/aurelix/facebook-ad-library-scraper) - Business ads from the public Meta Ad Library by keyword, page ID or Ad Library URL: ad text, media links, dates and platforms. Political ads excluded. Why this one: $0.70 per 1,000 ads vs $5.80 for Apify's own Facebook Ads Scraper, with exact limits and a new-ads-only mode. Example: [facebook-ad-library-example](https://github.com/Aurelix-Solutions/facebook-ad-library-example).
+- [Competitor Watch](https://apify.com/aurelix/competitor-watch) - One report per competitor with only what is new since the last run: new Meta and TikTok ads, text changes on chosen pages, new and re-priced Shopify products and new job postings, plus a Slack or webhook digest. Why this one: five sources in one run and one plain-language summary per competitor, $0.03 per competitor per run plus $0.001 per new item, instead of five scrapers and five schedules. Example: [competitor-watch-example](https://github.com/Aurelix-Solutions/competitor-watch-example).
 
 ## Public records
 
