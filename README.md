@@ -18,6 +18,7 @@ All tools read only public pages with no login and are paid per result on Apify 
 
 - [LinkedIn Jobs Scraper](https://apify.com/aurelix/linkedin-jobs) - LinkedIn job postings by keyword, country and date posted, with no login: title, company, location, salary where shown, seniority and description. Why this one: exact country filter and filtered-out jobs free; 25% under the most-used LinkedIn scraper. Example: [linkedin-jobs-example](https://github.com/Aurelix-Solutions/linkedin-jobs-example).
 - [Greenhouse Jobs Scraper](https://apify.com/aurelix/greenhouse-jobs-scraper) - Jobs straight from company career sites on Greenhouse, Lever, Ashby and SmartRecruiters, in one schema with salary, remote flag and apply link. Why this one: 8x cheaper than the leading jobs API and 40% under the leading feed, read live from each employer's board. Example: [career-site-jobs-example](https://github.com/Aurelix-Solutions/career-site-jobs-example).
+- [Multi Job Board Scraper](https://apify.com/aurelix/multi-job-board-scraper) - One job search across LinkedIn, company career sites and remote boards, with duplicates merged into one schema. Why this one: LinkedIn plus ~50 company career sites in one deduplicated search, 25% under the alternatives. Example: [multi-board-jobs-example](https://github.com/Aurelix-Solutions/multi-board-jobs-example).
 
 ## E-commerce and product research
 
