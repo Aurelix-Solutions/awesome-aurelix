@@ -15,6 +15,7 @@ All tools read only public pages with no login and are paid per result on Apify 
 - [Public records](#public-records)
 - [Web and AI](#web-and-ai)
 - [Marketing and SEO research](#marketing-and-seo-research)
+- [Sports data](#sports-data)
 - [Recipes](#recipes)
 
 ## Jobs and hiring
@@ -56,6 +57,10 @@ All tools read only public pages with no login and are paid per result on Apify 
 - [Google Trends Scraper](https://apify.com/aurelix/google-trends-scraper) - Google Trends for any number of keywords on one 0-100 scale: interest over time, interest by country, state, metro or city, and top and rising related queries. Why this one: $1.50 per 1,000 results vs $3.00 plus platform usage for Apify's own Google Trends Scraper, and it accepts Google Trends explore links. Example: [google-trends-example](https://github.com/Aurelix-Solutions/google-trends-example).
 - [Google Autocomplete Scraper](https://apify.com/aurelix/google-autocomplete-scraper) - Keyword ideas from Google Search and YouTube autocomplete: A-Z, 0-9, question and preposition modifiers for every seed, country and language, with intent tags. Why this one: $0.45 per 1,000 keywords vs $0.50-$1.00, and YouTube suggestions in the same run where the alternatives compared are Google only. Example: [keyword-expander-example](https://github.com/Aurelix-Solutions/keyword-expander-example).
 - [Tech Stack Detector](https://apify.com/aurelix/tech-stack-detector) - The technologies a website runs, one row per domain: CMS, e-commerce platform, analytics, ad pixels, chat, payments and hosting, plus the email provider from DNS. Why this one: $1.50 per 1,000 domains vs $2.00 per 1,000 results or $10 per 1,000 sites, reading the live site plus its MX, SPF and DMARC records. Example: [tech-stack-detector-example](https://github.com/Aurelix-Solutions/tech-stack-detector-example).
+
+## Sports data
+
+- [Tennis Odds Scraper](https://apify.com/aurelix/tennis-odds-scraper) - Tennis results and bookmaker odds from TennisExplorer, one row per match: ATP, WTA, Challenger, ITF and UTR, score by set, and opening and closing odds per bookmaker. Why this one: opening and closing odds from 10 to 15 bookmakers per match with implied probabilities, at $3 per 1,000 matches vs $8 for the most-used tennis Actor. Example: [tennis-odds-scraper-example](https://github.com/Aurelix-Solutions/tennis-odds-scraper-example).
 
 ## Recipes
 
