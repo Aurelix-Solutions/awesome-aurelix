@@ -15,6 +15,7 @@ All tools read only public pages with no login and are paid per result on Apify 
 - [Public records](#public-records)
 - [Web and AI](#web-and-ai)
 - [Marketing and SEO research](#marketing-and-seo-research)
+- [Recipes](#recipes)
 
 ## Jobs and hiring
 
@@ -46,12 +47,23 @@ All tools read only public pages with no login and are paid per result on Apify 
 ## Web and AI
 
 - [Website to Markdown Crawler](https://apify.com/aurelix/website-to-markdown) - Each page of a website as clean Markdown of its main content for AI, RAG and LLMs, with title, headings and links. Why this one: a flat $1.50 per 1,000 pages, 34% under Apify's RAG Web Browser and no compute-unit billing; failed pages free. Example: [website-to-markdown-example](https://github.com/Aurelix-Solutions/website-to-markdown-example).
+- [SEO Audit Crawler](https://apify.com/aurelix/seo-audit-crawler) - A technical SEO audit of every page and the XML sitemap: status, redirects, meta tags, H1, canonical, noindex and broken links. Why this one: 1/16 the price of the most-used per-page SEO audit Actor, broken links and sitemap gaps included. Example: [seo-audit-crawler-example](https://github.com/Aurelix-Solutions/seo-audit-crawler-example).
 - [PDF to Markdown Converter](https://apify.com/aurelix/pdf-to-markdown) - PDF and Word (DOCX) files from URLs as Markdown per page, with tables as JSON rows, AI-ready chunks and automatic OCR for scanned pages. Why this one: $0.003 for a 10-page PDF vs $0.005 and $0.00345 for the alternatives compared, with Word files and OCR at $8 per 1,000 pages. Example: [pdf-to-markdown-example](https://github.com/Aurelix-Solutions/pdf-to-markdown-example).
 
 ## Marketing and SEO research
 
 - [Google Trends Scraper](https://apify.com/aurelix/google-trends-scraper) - Google Trends for any number of keywords on one 0-100 scale: interest over time, interest by country, state, metro or city, and top and rising related queries. Why this one: $1.50 per 1,000 results vs $3.00 plus platform usage for Apify's own Google Trends Scraper, and it accepts Google Trends explore links. Example: [google-trends-example](https://github.com/Aurelix-Solutions/google-trends-example).
 - [Google Autocomplete Scraper](https://apify.com/aurelix/google-autocomplete-scraper) - Keyword ideas from Google Search and YouTube autocomplete: A-Z, 0-9, question and preposition modifiers for every seed, country and language, with intent tags. Why this one: $0.45 per 1,000 keywords vs $0.50-$1.00, and YouTube suggestions in the same run where the alternatives compared are Google only. Example: [keyword-expander-example](https://github.com/Aurelix-Solutions/keyword-expander-example).
+
+## Recipes
+
+Each recipe passes one tool's output field into another tool's input field. Field names are the real ones from each tool's output and input.
+
+### Audit the websites of a local niche
+
+1. [Google Maps Business Scraper](https://apify.com/aurelix/google-maps-scraper) for a niche and city.
+2. Pass each `website` as `siteUrl` to [SEO Audit Crawler](https://apify.com/aurelix/seo-audit-crawler). It audits one site per run, so start one run per website (a loop in the example script or an n8n loop).
+3. Each run ends with a summary row listing the site's issues by rank.
 
 ## Licence
 
